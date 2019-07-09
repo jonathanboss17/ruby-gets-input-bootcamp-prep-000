@@ -1,6 +1,6 @@
-def greeting(response)
+def greeting(name)
   
-  if(response != "pizza")
+  if(name != "pizza")
     puts "Well my favorite food is pizza."
   else 
     puts "My favorite food is also pizza!"
