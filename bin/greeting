@@ -3,5 +3,5 @@
 require_relative '../lib/hello_ruby_programmer.rb'
 
 puts "What is your favorite food?"
-response = gets.strip
-greeting(response)
+name = gets.strip
+greeting(name)
